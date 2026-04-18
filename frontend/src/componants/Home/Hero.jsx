@@ -10,7 +10,6 @@ const Hero = () => {
       <div className="absolute bottom-10 right-10 h-52 w-52 rounded-full bg-amber-200/30 blur-3xl animate-pulse"></div>
 
       <div className="max-w-7xl mx-auto px-4 py-14 md:py-20 lg:py-10 flex flex-col-reverse lg:flex-row items-center gap-12">
-        
         {/* Left Content */}
         <div className="flex-1 text-center lg:text-left">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white shadow-md border border-blue-100 text-[#1e3a8a] font-semibold text-sm mb-5 hover:scale-105 transition">
@@ -26,13 +25,14 @@ const Hero = () => {
           </h1>
 
           <p className="mt-5 text-gray-600 text-base md:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-            A complete digital journal workflow for <span className="font-semibold text-gray-800">authors</span>,{" "}
+            A complete digital journal workflow for{" "}
+            <span className="font-semibold text-gray-800">authors</span>,{" "}
             <span className="font-semibold text-gray-800">reviewers</span>,{" "}
             <span className="font-semibold text-gray-800">editors</span>, and{" "}
             <span className="font-semibold text-gray-800">administrators</span>.
-            Submit manuscripts, manage peer review, handle revisions, and publish papers online from one place.
+            Submit manuscripts, manage peer review, handle revisions, and
+            publish papers online from one place.
           </p>
-
           {/* Buttons */}
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
             <Link
@@ -95,7 +95,6 @@ const Hero = () => {
               alt="Research Journal Hero"
               className="w-full max-w-[580px] mx-auto h-[320px] md:h-[430px] object-cover rounded-[24px]"
             />
-
           </div>
         </div>
       </div>
